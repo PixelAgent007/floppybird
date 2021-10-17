@@ -1,25 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.github.pixel.floppybird" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Floppy Birb</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Flappy Bird by Nebez, ported by PixelAgent007
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="oskar@atisvirtual.de">
+        Oskar Manhart
     </author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+        <icon src="assets/icon.png" />
     </platform>
 </widget>
